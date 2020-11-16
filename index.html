@@ -1,80 +1,252 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: "Lato", sans-serif;
-        }
-        
-        .sidenav {
-            height: 100%;
-            width: 160px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-        }
-        
-        .sidenav a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-        
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-        
-        .main {
-            margin-left: 160px;
-            /* Same as the width of the sidenav */
-            font-size: 28px;
-            /* Increased text to enable scrolling */
-            padding: 0px 10px;
-        }
-        
-        @media screen and (max-height: 450px) {
-            .sidenav {
-                padding-top: 15px;
-            }
-            .sidenav a {
-                font-size: 18px;
-            }
-        }
-    </style>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Luis Dias - IT Systems Architecht</title>
+	<meta name="description" content="Blvck - Personal vCard & Resume Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+	
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="assets/css/font-awesome/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<title>Luis Roberto Costa Dias</title>
 
 <body>
+	<!-- Preloader -->
+	<div class="preloader-outer">
+		<div class="preloader">
+			<div class="lines">
+				<div class="line line-1"></div>
+				<div class="line line-2"></div>
+				<div class="line line-3"></div>
+			</div>
 
-    <div class="sidenav">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
-    </div>
+			<div class="loading-text"></div>
+		</div>
+	</div>
+	<!-- Preloader end -->
 
-    <div class="main">
-        <h2>Sidebar</h2>
-        <p>This sidebar is of full height (100%) and always shown.</p>
-        <p>Scroll down the page to see the result.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
-            efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
-            efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
-            efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
-            efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    </div>
+	<!-- Main Wrapper -->
+	<main class="wrapper">
 
+		<!-- Header -->
+		<header class="header pull-left">
+
+			<!-- Mobile menu -->
+			<div class="mobile-bar visible-sm visible-xs">
+				<div class="hamburger-menu">
+					<div class="bar"></div>
+				</div>
+			</div>
+			<!-- Mobile menu end -->
+
+			<div class="avatar">
+				<img src="assets/images/my-pic.jpg" alt="avatar">
+			</div>
+
+			<div class="name">
+				<h1>Luis Dias</h1>
+				<span>IT Systems Architecht</span>
+			</div>
+
+			<!-- Social Icons -->
+			<div class="no-print social-icons">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/luisrcdias/" target="blank"><i class="fab fa-linkedin"
+								aria-hidden="true"></i></a></li>
+					<li><a href="https://github.com/luisrcdias" target="blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+					</li>
+					<li><a href="https://www.instagram.com/luisrcdias/" target="blank"><i class="fab fa-instagram"
+								aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<!-- Social Icons end -->
+
+			<!-- Navigation bar -->
+			<nav class="main-nav">
+				<ul class="navigation">
+
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#experience">Expereince</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#others">Others</a></li>
+
+					<li><a class="no-print" href="mailto:luisrcdias@gmail.com?subject=Contact&body=I've%20come%20across%20your%20web%20resume%20and%20want%20to%20hire%20you!">Contact me</a></li>
+				</ul>
+			</nav>
+			<!-- Navigation bar end -->
+		</header>
+		<!-- Header end -->
+
+		<!-- Main Content -->
+		<div class="main-content pull-right">
+
+
+			<!-- Section About -->
+			<section id="about" class="about">
+
+				<div class="section-header">
+					<h2>About Me</h2>
+
+									<a href="javascript:window.print();" class="no-print resume-download">
+						<i class="fa fa-download" aria-hidden="true"> </i> Download Resume
+					</a>
+				</div>
+
+				<!-- Intro -->
+				<div class="intro">
+
+					<p>Passionate about technology and gadgets, able to easily work with both hardware and software
+						development. Knowledge in Java, DevOps, Atlassian Suite, web design, UX/UI design, CSS, HTML,
+						JavaScript, VBA, SAP, Linux Distributions, Windows Server, Adobe CC, G Suite and others.</p>
+					<p>If you have a project I can help with, feel free to contact me. </p>
+
+					<ul class="info">
+						<li><strong><i class="fas fa-map-marker-alt"></i></strong> São José dos Campos - SP - Brazil
+						</li>
+						<li><strong><i class="fas fa-envelope"></i></strong> luisrcdias@gmail.com</li>
+						<li><strong><i class="fas fa-phone"></i></strong> +55 12 99625 3365</li>
+					</ul>
+
+
+
+				</div>
+				<!-- Intro end -->
+
+
+			</section>
+			<!-- Section About end -->
+
+
+
+			<!-- Section Resume -->
+			<section id="experience" class="resume">
+
+				<div class="section-header">
+					<h2>Experience</h2>
+
+				</div>
+
+				<div class="row">
+
+
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="top-item resume-item">
+							<h2>Sonda IT</h2>
+							<span>System Architect | October, 2019 - PRESENT</span>
+							<p>Responsible for Application Lifecycle Management tools and applications;</p>
+							<p>Developed application upgrade automation #Shell scripts;</p>
+							<p>Created a tool to automate certain team tasks with #Flutter and #RestAPIs;</p>
+							<p>Manage #Unix (#RHEL) servers that hosts tools and applications;</p>
+							<p>IT Configuration Management proccess review and improvements;</p>
+							<p>Support several development teams regarding Unit Testing, metrics and guidelines;</p>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="resume-item">
+							<h2>Embraer S.A.</h2>
+							<span>Full Stack Developer | April, 2018 - October, 2019</span>
+							<p>Developed a Web Portal to assist Supply Chain processes;</p>
+							<p>Responsible for gathering requirements, documenting, testing and delivering new tools and
+								solutions;</p>
+							<p>Created reports extraction from ERP via ETL Tools;</p>
+						</div>
+					</div>
+					<!-- Page 1 End -->
+
+
+				</div>
+
+			</section>
+			<!-- Section Resume end -->
+
+
+
+			<!-- Section Resume -->
+			<section id="education" class="resume">
+
+				<div class="section-header">
+					<h2>Education</h2>
+
+				</div>
+
+				<div class="row">
+
+
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="top-item resume-item">
+							<h2>Computer Engineering</h2>
+							<span>Federal University of Itajubá</span>
+							<p></p>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="resume-item">
+							<h2>Minor in Entrepreneurship</h2>
+							<span>Federal University of Itajubá</span>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Section Resume end -->
+			<section id="others" class="resume">
+
+				<div class="section-header">
+					<h2>Others</h2>
+				</div>
+
+				<!-- Contact Form -->
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="top-item resume-item">
+							<h2>IMAV 2016</h2>
+							<span>Black Bee Drones - Federal University of Itajubá</span>
+							<p>Represented Brazil and Federal University of Itajubá at the International Micro Air
+								Vehicles, Conferences and Competitions - Beijing/China - 2016</p>
+						</div>
+					</div>
+				</div>
+				<!-- Contact Form end -->
+
+			</section>
+
+		</div>
+		<!-- Main Content end -->
+
+	</main>
+	<!-- Main Wrapper end -->
+
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="assets/js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.onepage-scroll.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.filterizr.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="assets/js/smoothscroll.min.js"></script>
+	<script type="text/javascript" src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+	
 </body>
 
 </html>
